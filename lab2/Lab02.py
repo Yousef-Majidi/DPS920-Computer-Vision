@@ -48,7 +48,7 @@ while(cap.isOpened()):
         print(snapshotName+" created!")
         img = cv.imread(snapshotName, 1)
         cv.imshow('image', img)
-        cv.waitKey(3000)
+        cv.waitKey(1000)
         cv.destroyWindow('image')
         print('window destroyed')
         snapshotCount+=1
