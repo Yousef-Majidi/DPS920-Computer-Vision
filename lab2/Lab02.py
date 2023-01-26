@@ -32,7 +32,7 @@ while (cap.isOpened()):
     print("Frames per second: {0}".format(fps))
 
     # Press Q or ESC on keyboard to exit
-    if key % 256 == ord('q') or key % 256 == ord('esc'):
+    if key % 256 == ord('q') or key % 256 == 27:
         break
 
     # press x on keyboard to take a screenshot. crops and adds border to the screenshot and saves it.
