@@ -44,30 +44,23 @@ def polyLine(event, x, y, flags, param):
 
 
 img = np.zeros((512,512,3), np.uint8)
-print("Type one of the following letters[r, w, g, y]: ")
-letter = input()
-if( letter == 'r'): 
-    color = (0,0,255)
-elif( letter == 'w'):
-    color = (255,255,255)
-elif( letter == 'g'):
-    color = (0,255,0)
-elif( letter == 'y'):
-    color = (0,255,255) 
 
 cv.namedWindow('image')
 cv.setMouseCallback('image',polyLine)
 while(1):
-    
-      
     cv.imshow('image',img)        
     k = cv.waitKey(1) & 0xFF
-    #save the image when user presses x
-    if k == ord('x'):
-        cv.imwrite('image.png',img)
+    if  k == 27:
+       break
+    elif k == ord('r'):
+        color = (0, 0, 255)
+    elif k == ord('w'):
+        color = (255, 255, 255)
+    elif k == ord('g'):
+        color = (0, 255, 0)
+    elif k == ord('y'):
+        color = (0, 255, 255)
+    elif k == ord('x'):
+        cv.imwrite('image.jpg', img)
         print('Image saved')
-    if k == ord('m'):
-        mode = not mode
-    elif k == 27:
-        break
 cv.destroyAllWindows()
