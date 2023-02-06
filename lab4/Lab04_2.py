@@ -30,7 +30,7 @@ cv.imshow('filtered', filtered)
 median = cv.medianBlur(img, 3)
 cv.imshow('median', median)
 
-#De-noise the noisy image using a 3x3 Gaussian filter 
+#De-noise the noisy image using a 3x3 Gaussian filter 0.1
 gaussian = cv.GaussianBlur(img, (3, 3), 1.5)
 cv.imshow('gaussian', gaussian)
 
