@@ -1,7 +1,6 @@
 import cv2 as cv
 import numpy as np
 
-
 img = cv.imread('cute.jpg')
 
 img = cv.resize(img, (0,0), fx=0.1, fy=0.1)
