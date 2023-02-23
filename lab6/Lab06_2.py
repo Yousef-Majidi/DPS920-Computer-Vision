@@ -16,8 +16,9 @@ min_val, max_val, min_loc, max_loc = cv.minMaxLoc(res)
 top_left = min_loc
 bottom_right = (top_left[0] + w, top_left[1] + h)
 cv.rectangle(copy1,top_left, bottom_right, 255, 2)
+cv.imshow('Trillium template',img2)
 cv.imshow('Trillium',copy1)
-cv.waitKey(1000)
+cv.waitKey(10000)
 
 
 res = cv.matchTemplate(copy2,img2, cv.TM_CCORR)
@@ -25,8 +26,9 @@ min_val, max_val, min_loc, max_loc = cv.minMaxLoc(res)
 top_left = max_loc
 bottom_right = (top_left[0] + w, top_left[1] + h)
 cv.rectangle(copy2,top_left, bottom_right, 255, 2)
+cv.imshow('Trillium template 2',img2)
 cv.imshow('Trillium2',copy2)
-cv.waitKey(1000)
+cv.waitKey(10000)
 
 
 copy3 = cv.resize(copy3, (0,0), fx=2, fy=2)
@@ -38,7 +40,8 @@ min_val, max_val, min_loc, max_loc = cv.minMaxLoc(res)
 top_left = max_loc
 bottom_right = (top_left[0] + w, top_left[1] + h)
 cv.rectangle(copy3,top_left, bottom_right, 255, 2)
+cv.imshow('Trillium template 3',img2)
 cv.imshow('Trillium3',copy3)
-cv.waitKey(1000)
+cv.waitKey(10000)
 
 cv.destroyAllWindows()
