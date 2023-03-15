@@ -23,8 +23,10 @@ def bb_intersection_over_union(boxA, boxB):
     iou = interArea / float(boxAArea + boxBArea - interArea)
 
     # return the intersection over union value
+    print(boxAArea, boxBArea, interArea)
     return iou
 
+list_iou = []
 
 def get_iou(alg_file, gt_file):
     try:
@@ -42,8 +44,13 @@ def get_iou(alg_file, gt_file):
             alg_bb = [int(alg[i][1]), int(alg[i][2]), int(alg[i][1]) + int(alg[i][3]), int(alg[i][2]) + int(alg[i][4])]
             gt_bb = [int(gt[i][1]), int(gt[i][2]), int(gt[i][1]) + int(gt[i][3]), int(gt[i][2]) + int(gt[i][4])]
             iou += bb_intersection_over_union(alg_bb, gt_bb)
+            #add iou to list
+            list_iou.append(iou)
         return iou / len(alg)
     except:
         return "Error!"
     
 print(get_iou('detections.csv', 'gt.csv'))
+print(list_iou)
+
+
