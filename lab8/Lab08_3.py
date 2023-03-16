@@ -53,4 +53,21 @@ def get_iou(alg_file, gt_file):
 print(get_iou('detections.csv', 'gt.csv'))
 print(list_iou)
 
+def get_precision_recall_f1(list_iou, number_of_face_files, threshold):
+    TP = 0
+    FP = 0
+    FN = 0
+    for i in range(len(list_iou)):
+        if list_iou[i] >= threshold:
+            TP += 1
+        else:
+            FP += 1
+    FN = number_of_face_files - TP
+    precision = TP / (TP + FP)
+    recall = TP / (TP + FN)
+    f1 = 2 * precision * recall / (precision + recall)
+    return [precision, recall, f1]
 
+
+for threshold in np.arange(0, 1, 0.1):
+    print(get_precision_recall_f1(list_iou, 8, threshold))
