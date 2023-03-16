@@ -50,7 +50,7 @@ def get_iou(alg_file, gt_file):
     except:
         return "Error!"
     
-print(get_iou('detection.csv', 'gt.csv'))
+print(get_iou('detections.csv', 'gt.csv'))
 print(list_iou)
 
 def get_precision_recall_f1(list_iou, number_of_face_files, threshold):
