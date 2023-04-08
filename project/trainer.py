@@ -8,16 +8,16 @@ neg_images_dir = "negative"
 pos_list_file = "pos_list.txt"
 neg_list_file = "neg_list.txt"
 
-#display position of pos_list_file
+# display position of pos_list_file
 
 with open(pos_list_file, "w") as f:
     for img_file in os.listdir(pos_images_dir):
-        f.write(os.path.join(pos_images_dir, img_file) + " 1 " + "5 " + "5 " + "480 " + "190" "\n")
+        f.write(os.path.join(pos_images_dir, img_file) +
+                " 1 " + "5 " + "5 " + "480 " + "190" "\n")
 
 with open(neg_list_file, "w") as f:
     for img_file in os.listdir(neg_images_dir):
         f.write(os.path.join(neg_images_dir, img_file) + "\n")
-
 
 
 # Step 2: Create a vector file
