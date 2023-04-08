@@ -31,9 +31,9 @@ os.system(cmd)
 # Step 3: Train the classifier
 data_dir = "data"
 bg_file = "neg_list.txt"
-num_pos = 56
+num_pos = 45
 num_neg = 340
-num_stages = 9
+num_stages = 10
 vec_file = "pos_vec.vec"
 
 cmd = f"opencv_traincascade -data {data_dir} -vec {vec_file} -bg {bg_file} -numPos {num_pos} -numNeg {num_neg} -numStages {num_stages}  -minHitRate {0.998} -maxFalseAlarmRate {0.3} -w {width} -h {height}  -featureType LBP"
