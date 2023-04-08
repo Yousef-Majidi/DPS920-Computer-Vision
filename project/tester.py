@@ -1,18 +1,24 @@
-import cv2 as cv
+import cv2
 
-# Step 4: Test the classifier
-test_image = "testpics/test1.jpg"
-classifier = "data/cascade.xml"
+# Load the pre-trained Haar Cascade classifier for car detection
+car_cascade = cv2.CascadeClassifier('data/cascade.xml')
 
-img = cv.imread(test_image)
-gray = cv.cvtColor(img, cv.COLOR_BGR2GRAY)
-classifier = cv.CascadeClassifier(classifier)
-cars = classifier.detectMultiScale(gray, 2.9, 1)
+# Load the image
+image = cv2.imread('testpics/test8.jpg')
+image = cv2.resize(image, (300, 170))
 
+# Convert the image to grayscale
+gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
+
+# Detect cars in the image using the Haar Cascade classifier
+cars = car_cascade.detectMultiScale(
+    gray, scaleFactor=1.1, minNeighbors=5, minSize=(50, 50))
+
+# Draw rectangles around the cars detected in the image
 for (x, y, w, h) in cars:
-    cv.rectangle(img, (x, y), (x+w, y+h), (0, 0, 255), 2)
+    cv2.rectangle(image, (x, y), (x+w, y+h), (0, 255, 0), 2)
 
-
-cv.imshow("Car Detection", img)
-cv.waitKey(0)
-cv.destroyAllWindows()
+# Display the image with the rectangles around the cars detected
+cv2.imshow('Car Detection', image)
+cv2.waitKey(0)
+cv2.destroyAllWindows()
