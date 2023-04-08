@@ -7,14 +7,16 @@ for var in range(1, 30):
     # Load the image
     image = cv2.imread('testpics/test' + str(var) + '.jpg')
 
-    image = cv2.resize(image, (300, 170))
+    if image is None:
+        continue
+    # image = cv2.resize(image, (300, 170))
 
     # Convert the image to grayscale
     gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 
     # Detect cars in the image using the Haar Cascade classifier
     cars = car_cascade.detectMultiScale(
-        gray, scaleFactor=1.1, minNeighbors=5, minSize=(50, 50))
+        gray, scaleFactor=1.001, minNeighbors=5, minSize=(100, 100))
 
     # Draw rectangles around the cars detected in the image
     for (x, y, w, h) in cars:
