@@ -116,7 +116,7 @@ for var in range(1, 30):
         (x, y, w, h) = cars[i]
 
     calculate_iou(ground_truth, [x, y, w, h], image,
-                  original_h, original_w, 'results.csv', var > 1)
+                  original_h, original_w, 'results/results.csv', var > 1)
 
     # draw a green box around the detection
     cv2.rectangle(image, (x, y), (x + w, y + h), GREEN, 2)
