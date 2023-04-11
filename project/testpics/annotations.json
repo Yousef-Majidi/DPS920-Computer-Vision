@@ -1,0 +1,715 @@
+[
+  {
+    "test": "/data/upload/1/c4ba9028-testpic1.jpg",
+    "id": 1,
+    "label": [
+      {
+        "x": 14.164244186046474,
+        "y": 13.32569057757397,
+        "width": 72.39260335917291,
+        "height": 68.24980893110562,
+        "rotation": 0,
+        "rectanglelabels": [
+          "Car"
+        ],
+        "original_width": 320,
+        "original_height": 213
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1,
+    "created_at": "2023-04-10T17:38:11.673482Z",
+    "updated_at": "2023-04-10T21:07:24.321049Z",
+    "lead_time": 1102.9349999999997
+  },
+  {
+    "test": "/data/upload/1/3826f390-testpic2.jpg",
+    "id": 2,
+    "label": [
+      {
+        "x": 2.6354613733905583,
+        "y": 12.083333333333334,
+        "width": 93.92703862660949,
+        "height": 72.50000000000001,
+        "rotation": 0,
+        "rectanglelabels": [
+          "Car"
+        ],
+        "original_width": 320,
+        "original_height": 240
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 2,
+    "created_at": "2023-04-10T19:23:05.015374Z",
+    "updated_at": "2023-04-10T21:07:22.066860Z",
+    "lead_time": 37.83
+  },
+  {
+    "test": "/data/upload/1/4ac7d249-testpic3.jpg",
+    "id": 3,
+    "label": [
+      {
+        "x": 6.437768240343349,
+        "y": 36.85714285714284,
+        "width": 88.19742489270386,
+        "height": 35.14285714285713,
+        "rotation": 0,
+        "rectanglelabels": [
+          "Car"
+        ],
+        "original_width": 320,
+        "original_height": 240
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 3,
+    "created_at": "2023-04-10T21:07:42.187902Z",
+    "updated_at": "2023-04-10T21:07:42.187930Z",
+    "lead_time": 14.478
+  },
+  {
+    "test": "/data/upload/1/651ee21c-testpic4.jpg",
+    "id": 4,
+    "label": [
+      {
+        "x": 26.451612903225808,
+        "y": 36.88212927756654,
+        "width": 48.817204301075265,
+        "height": 42.20532319391635,
+        "rotation": 0,
+        "rectanglelabels": [
+          "Car"
+        ],
+        "original_width": 299,
+        "original_height": 169
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 4,
+    "created_at": "2023-04-10T21:08:19.760943Z",
+    "updated_at": "2023-04-10T21:08:35.666384Z",
+    "lead_time": 26.67
+  },
+  {
+    "test": "/data/upload/1/e4f4a10b-testpic5.jpg",
+    "id": 5,
+    "label": [
+      {
+        "x": 27.253218884120173,
+        "y": 32.58064516129032,
+        "width": 48.927038626609445,
+        "height": 41.61290322580646,
+        "rotation": 0,
+        "rectanglelabels": [
+          "Car"
+        ],
+        "original_width": 320,
+        "original_height": 213
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 5,
+    "created_at": "2023-04-10T21:08:53.841122Z",
+    "updated_at": "2023-04-10T21:08:53.841156Z",
+    "lead_time": 15.397
+  },
+  {
+    "test": "/data/upload/1/28161b92-testpic6.jpg",
+    "id": 6,
+    "label": [
+      {
+        "x": 3.4334763948497855,
+        "y": 45.337620578778136,
+        "width": 91.20171673819742,
+        "height": 43.08681672025725,
+        "rotation": 0,
+        "rectanglelabels": [
+          "Car"
+        ],
+        "original_width": 640,
+        "original_height": 427
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 6,
+    "created_at": "2023-04-10T21:09:14.602483Z",
+    "updated_at": "2023-04-10T21:09:14.602525Z",
+    "lead_time": 18.755
+  },
+  {
+    "test": "/data/upload/1/cb35165d-testpic7.jpg",
+    "id": 7,
+    "label": [
+      {
+        "x": 9.554140127388536,
+        "y": 39.75155279503105,
+        "width": 81.21019108280255,
+        "height": 32.29813664596274,
+        "rotation": 0,
+        "rectanglelabels": [
+          "Car"
+        ],
+        "original_width": 640,
+        "original_height": 983
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 7,
+    "created_at": "2023-04-10T21:09:41.717418Z",
+    "updated_at": "2023-04-10T21:09:41.717487Z",
+    "lead_time": 11.804
+  },
+  {
+    "test": "/data/upload/1/b9005a46-testpic8.jpg",
+    "id": 8,
+    "label": [
+      {
+        "x": 22.317596566523605,
+        "y": 25.080385852090032,
+        "width": 55.793991416309,
+        "height": 54.340836012861736,
+        "rotation": 0,
+        "rectanglelabels": [
+          "Car"
+        ],
+        "original_width": 640,
+        "original_height": 427
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 8,
+    "created_at": "2023-04-10T21:09:54.837735Z",
+    "updated_at": "2023-04-10T21:09:54.837807Z",
+    "lead_time": 8.606
+  },
+  {
+    "test": "/data/upload/1/9e882d81-testpic9.jpg",
+    "id": 9,
+    "label": [
+      {
+        "x": 3.862660944206006,
+        "y": 20.057306590257866,
+        "width": 91.84549356223171,
+        "height": 60.744985673352474,
+        "rotation": 0,
+        "rectanglelabels": [
+          "Car"
+        ],
+        "original_width": 259,
+        "original_height": 194
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 9,
+    "created_at": "2023-04-10T21:10:15.303834Z",
+    "updated_at": "2023-04-10T21:10:15.303904Z",
+    "lead_time": 18.627
+  },
+  {
+    "test": "/data/upload/1/c9867514-testpic10.jpg",
+    "id": 10,
+    "label": [
+      {
+        "x": 7.081545064377685,
+        "y": 26.774193548387096,
+        "width": 85.1931330472103,
+        "height": 57.096774193548384,
+        "rotation": 0,
+        "rectanglelabels": [
+          "Car"
+        ],
+        "original_width": 320,
+        "original_height": 213
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 10,
+    "created_at": "2023-04-10T21:10:34.439209Z",
+    "updated_at": "2023-04-10T21:10:34.439284Z",
+    "lead_time": 15.179
+  },
+  {
+    "test": "/data/upload/1/f04346c5-testpic11.jpg",
+    "id": 11,
+    "label": [
+      {
+        "x": 2.7896995708154506,
+        "y": 19.428571428571423,
+        "width": 94.63519313304721,
+        "height": 55.714285714285715,
+        "rotation": 0,
+        "rectanglelabels": [
+          "Car"
+        ],
+        "original_width": 320,
+        "original_height": 240
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 11,
+    "created_at": "2023-04-10T21:10:54.611611Z",
+    "updated_at": "2023-04-10T21:10:54.611642Z",
+    "lead_time": 17.644
+  },
+  {
+    "test": "/data/upload/1/f4561ee4-testpic12.jpg",
+    "id": 12,
+    "label": [
+      {
+        "x": 26.666666666666668,
+        "y": 37.262357414448694,
+        "width": 49.24731182795696,
+        "height": 42.96577946768063,
+        "rotation": 0,
+        "rectanglelabels": [
+          "Car"
+        ],
+        "original_width": 1200,
+        "original_height": 678
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 12,
+    "created_at": "2023-04-10T21:12:02.521301Z",
+    "updated_at": "2023-04-10T21:12:02.521364Z",
+    "lead_time": 63.357
+  },
+  {
+    "test": "/data/upload/1/254dbcaa-testpic13.jpg",
+    "id": 13,
+    "label": [
+      {
+        "x": 17.38197424892704,
+        "y": 39.67741935483872,
+        "width": 42.918454935622314,
+        "height": 28.387096774193548,
+        "rotation": 0,
+        "rectanglelabels": [
+          "Car"
+        ],
+        "original_width": 320,
+        "original_height": 213
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 13,
+    "created_at": "2023-04-10T21:12:18.417241Z",
+    "updated_at": "2023-04-10T21:12:18.417310Z",
+    "lead_time": 14.368
+  },
+  {
+    "test": "/data/upload/1/377ac88d-testpic14.jpg",
+    "id": 14,
+    "label": [
+      {
+        "x": 0.8583690987124464,
+        "y": 15.714285714285701,
+        "width": 97.6394849785407,
+        "height": 63.42857142857145,
+        "rotation": 0,
+        "rectanglelabels": [
+          "Car"
+        ],
+        "original_width": 320,
+        "original_height": 240
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 14,
+    "created_at": "2023-04-10T21:12:32.817067Z",
+    "updated_at": "2023-04-10T21:12:32.817118Z",
+    "lead_time": 12.631
+  },
+  {
+    "test": "/data/upload/1/42b9fa2b-testpic15.jpg",
+    "id": 15,
+    "label": [
+      {
+        "x": 19.170984455958546,
+        "y": 42.85714285714286,
+        "width": 64.50777202072535,
+        "height": 26.70807453416146,
+        "rotation": 0,
+        "rectanglelabels": [
+          "Car"
+        ],
+        "original_width": 640,
+        "original_height": 800
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 15,
+    "created_at": "2023-04-10T21:12:50.326416Z",
+    "updated_at": "2023-04-10T21:12:50.326444Z",
+    "lead_time": 14.843
+  },
+  {
+    "test": "/data/upload/1/74740bae-testpic16.jpg",
+    "id": 16,
+    "label": [
+      {
+        "x": 13.031914893617024,
+        "y": 45.75569358178054,
+        "width": 72.34042553191492,
+        "height": 32.091097308488614,
+        "rotation": 0,
+        "rectanglelabels": [
+          "Car"
+        ],
+        "original_width": 640,
+        "original_height": 823
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 16,
+    "created_at": "2023-04-10T21:13:01.346324Z",
+    "updated_at": "2023-04-10T21:13:01.346359Z",
+    "lead_time": 8.901
+  },
+  {
+    "test": "/data/upload/1/d4a595bd-testpic17.jpg",
+    "id": 17,
+    "label": [
+      {
+        "x": 3.4334763948497855,
+        "y": 16.857142857142847,
+        "width": 92.9184549356223,
+        "height": 64.85714285714286,
+        "rotation": 0,
+        "rectanglelabels": [
+          "Car"
+        ],
+        "original_width": 320,
+        "original_height": 240
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 17,
+    "created_at": "2023-04-10T21:13:30.870380Z",
+    "updated_at": "2023-04-10T21:13:30.870448Z",
+    "lead_time": 27.972
+  },
+  {
+    "test": "/data/upload/1/5e2be007-testpic18.jpg",
+    "id": 18,
+    "label": [
+      {
+        "x": 4.077253218884111,
+        "y": 32.857142857142854,
+        "width": 92.06008583690972,
+        "height": 34.2857142857143,
+        "rotation": 0,
+        "rectanglelabels": [
+          "Car"
+        ],
+        "original_width": 320,
+        "original_height": 240
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 18,
+    "created_at": "2023-04-10T21:13:46.860507Z",
+    "updated_at": "2023-04-10T21:13:46.860537Z",
+    "lead_time": 14.714
+  },
+  {
+    "test": "/data/upload/1/92491262-testpic19.jpg",
+    "id": 19,
+    "label": [
+      {
+        "x": 16.094420600858374,
+        "y": 52.903225806451616,
+        "width": 68.24034334763947,
+        "height": 36.45161290322581,
+        "rotation": 0,
+        "rectanglelabels": [
+          "Car"
+        ],
+        "original_width": 320,
+        "original_height": 213
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 19,
+    "created_at": "2023-04-10T21:14:01.375093Z",
+    "updated_at": "2023-04-10T21:14:01.375129Z",
+    "lead_time": 11.896
+  },
+  {
+    "test": "/data/upload/1/29f2daab-testpic20.jpg",
+    "id": 20,
+    "label": [
+      {
+        "x": 41.63090128755365,
+        "y": 47.41935483870968,
+        "width": 47.42489270386266,
+        "height": 24.838709677419356,
+        "rotation": 0,
+        "rectanglelabels": [
+          "Car"
+        ],
+        "original_width": 320,
+        "original_height": 213
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 20,
+    "created_at": "2023-04-10T21:14:11.489995Z",
+    "updated_at": "2023-04-10T21:14:11.490062Z",
+    "lead_time": 8.092
+  },
+  {
+    "test": "/data/upload/1/335e9195-testpic21.jpg",
+    "id": 21,
+    "label": [
+      {
+        "x": 1.7167381974248928,
+        "y": 14.000000000000002,
+        "width": 96.13733905579399,
+        "height": 68.57142857142857,
+        "rotation": 0,
+        "rectanglelabels": [
+          "Car"
+        ],
+        "original_width": 320,
+        "original_height": 240
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 21,
+    "created_at": "2023-04-10T21:14:31.449034Z",
+    "updated_at": "2023-04-10T21:14:31.449061Z",
+    "lead_time": 17.996
+  },
+  {
+    "test": "/data/upload/1/997611db-testpic22.jpg",
+    "id": 22,
+    "label": [
+      {
+        "x": 11.158798283261802,
+        "y": 33.130699088145896,
+        "width": 78.75536480686695,
+        "height": 46.20060790273556,
+        "rotation": 0,
+        "rectanglelabels": [
+          "Car"
+        ],
+        "original_width": 320,
+        "original_height": 226
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 22,
+    "created_at": "2023-04-10T21:15:05.637687Z",
+    "updated_at": "2023-04-10T21:15:05.637761Z",
+    "lead_time": 11.782
+  },
+  {
+    "test": "/data/upload/1/0351f2ae-testpic23.jpg",
+    "id": 23,
+    "label": [
+      {
+        "x": 7.08154506437768,
+        "y": 20.64516129032258,
+        "width": 83.47639484978541,
+        "height": 72.58064516129028,
+        "rotation": 0,
+        "rectanglelabels": [
+          "Car"
+        ],
+        "original_width": 320,
+        "original_height": 213
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 23,
+    "created_at": "2023-04-10T21:15:24.700671Z",
+    "updated_at": "2023-04-10T21:15:24.700739Z",
+    "lead_time": 15.301
+  },
+  {
+    "test": "/data/upload/1/3f012896-testpic24.jpg",
+    "id": 24,
+    "label": [
+      {
+        "x": 15.87982832618023,
+        "y": 31.83279742765272,
+        "width": 69.31330472103006,
+        "height": 47.90996784565912,
+        "rotation": 0,
+        "rectanglelabels": [
+          "Car"
+        ],
+        "original_width": 640,
+        "original_height": 427
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 24,
+    "created_at": "2023-04-10T21:15:38.449630Z",
+    "updated_at": "2023-04-10T21:15:38.449742Z",
+    "lead_time": 12.019
+  },
+  {
+    "test": "/data/upload/1/2dd4c3dc-testpic25.jpg",
+    "id": 25,
+    "label": [
+      {
+        "x": 1.2875536480686682,
+        "y": 30,
+        "width": 97.2103004291845,
+        "height": 37.14285714285713,
+        "rotation": 0,
+        "rectanglelabels": [
+          "Car"
+        ],
+        "original_width": 320,
+        "original_height": 240
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 25,
+    "created_at": "2023-04-10T21:15:51.874890Z",
+    "updated_at": "2023-04-10T21:15:51.874922Z",
+    "lead_time": 11.979
+  },
+  {
+    "test": "/data/upload/1/9b07f33a-testpic26.jpg",
+    "id": 26,
+    "label": [
+      {
+        "x": 6.008583690987124,
+        "y": 10.857142857142858,
+        "width": 88.19742489270385,
+        "height": 77.14285714285717,
+        "rotation": 0,
+        "rectanglelabels": [
+          "Car"
+        ],
+        "original_width": 320,
+        "original_height": 240
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 26,
+    "created_at": "2023-04-10T21:16:00.928275Z",
+    "updated_at": "2023-04-10T21:16:00.928328Z",
+    "lead_time": 7.452
+  },
+  {
+    "test": "/data/upload/1/b1b9baa5-testpic27.jpg",
+    "id": 27,
+    "label": [
+      {
+        "x": 19.527896995708154,
+        "y": 35.16129032258065,
+        "width": 65.23605150214593,
+        "height": 46.12903225806453,
+        "rotation": 0,
+        "rectanglelabels": [
+          "Car"
+        ],
+        "original_width": 320,
+        "original_height": 213
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 27,
+    "created_at": "2023-04-10T21:16:13.240236Z",
+    "updated_at": "2023-04-10T21:16:13.240308Z",
+    "lead_time": 10.643
+  },
+  {
+    "test": "/data/upload/1/95a52eed-testpic28.jpg",
+    "id": 28,
+    "label": [
+      {
+        "x": 32.83261802575106,
+        "y": 49.39024390243901,
+        "width": 57.29613733905581,
+        "height": 31.70731707317072,
+        "rotation": 0,
+        "rectanglelabels": [
+          "Car"
+        ],
+        "original_width": 640,
+        "original_height": 450
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 28,
+    "created_at": "2023-04-10T21:16:27.601150Z",
+    "updated_at": "2023-04-10T21:16:27.601179Z",
+    "lead_time": 11.986
+  },
+  {
+    "test": "/data/upload/1/6d7b44fe-testpic29.jpg",
+    "id": 29,
+    "label": [
+      {
+        "x": 14.806866952789699,
+        "y": 33.11897106109324,
+        "width": 66.95278969957081,
+        "height": 43.7299035369775,
+        "rotation": 0,
+        "rectanglelabels": [
+          "Car"
+        ],
+        "original_width": 640,
+        "original_height": 427
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 29,
+    "created_at": "2023-04-10T21:16:41.738703Z",
+    "updated_at": "2023-04-10T21:16:41.738739Z",
+    "lead_time": 11.83
+  },
+  {
+    "test": "/data/upload/1/083df1c1-testpic30.jpg",
+    "id": 30,
+    "label": [
+      {
+        "x": 12.446351931330472,
+        "y": 26.129032258064516,
+        "width": 74.67811158798283,
+        "height": 61.935483870967744,
+        "rotation": 0,
+        "rectanglelabels": [
+          "Car"
+        ],
+        "original_width": 320,
+        "original_height": 213
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 30,
+    "created_at": "2023-04-10T21:16:56.054373Z",
+    "updated_at": "2023-04-10T21:16:56.054446Z",
+    "lead_time": 12.38
+  },
+  {
+    "test": "/data/upload/1/abd5e873-testpic31.jpg",
+    "id": 31,
+    "label": [
+      {
+        "x": 2.5751072961373347,
+        "y": 14.857142857142847,
+        "width": 93.13304721030025,
+        "height": 66.85714285714286,
+        "rotation": 0,
+        "rectanglelabels": [
+          "Car"
+        ],
+        "original_width": 320,
+        "original_height": 240
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 31,
+    "created_at": "2023-04-10T21:17:14.524154Z",
+    "updated_at": "2023-04-10T21:17:14.524228Z",
+    "lead_time": 17.103
+  }
+]
