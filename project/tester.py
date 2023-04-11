@@ -38,8 +38,9 @@ def calculate_iou(box1, box2, img, img_height, img_width, csv_file_path, append_
     F1 = 2 * P * R / (P + R) if (P + R) != 0 else 0
 
     # Export the results to a CSV file
-    fieldnames = ['TP', 'TN', 'FP', 'FN', 'R', 'P', 'F1']
-    row = {'TP': TP, 'TN': TN, 'FP': FP, 'FN': FN, 'R': R, 'P': P, 'F1': F1}
+    fieldnames = ['FILE', 'TP', 'TN', 'FP', 'FN', 'R', 'P', 'F1']
+    row = {'FILE': 'result_' + str(var), 'TP': TP, 'TN': TN,
+           'FP': FP, 'FN': FN, 'R': R, 'P': P, 'F1': F1}
     mode = 'a' if append_to_file else 'w'
 
     with open(csv_file_path, mode, newline='') as csvfile:
